@@ -1,0 +1,80 @@
+/*
+Theme Name: xtra-minimal
+Author: Chrissie Brown
+Author URI: https://www.x-tra-designs.org
+Description: minimal wordpress theme just for fun 10.2024
+Version: 1.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+
+/* body style */
+html {
+    overflow-y: scroll;
+    height: 100%;
+    font: 100%/1.5 sans-serif;
+    word-wrap: break-word;
+    margin: 0 auto;
+    padding: 1.5em;
+ }
+
+h1, h2, h3, h4 {
+    margin: 2.5rem 0 1.5rem 0;
+    line-height: 1.25;
+    color: #333;
+ }
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.article-full {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.wp-block-column {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.wp-block-image {
+  background-color: #eeee;
+}
+
+.has-text-align-center,
+.has-text-color {
+  color:black;
+}
+
+/* wtf */
+.wp-lightbox-overlay {
+  z-index:10;
+}
+
+footer {
+  margin: 0;
+  padding: 10px 0 10px 0;
+}
+footer p {
+  padding: 10px;
+}
+
+footer a {
+  margin: 0;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid #ccc;
+  color: black;
+  text-decoration: none;
+}
+footer a:hover, a:focus, a:active {
+  background-color: #ddd;
+}
