@@ -1,4 +1,5 @@
 <footer>
+<hr />
 <p>
 Copyright <?php echo date('Y'); ?>
 </p>

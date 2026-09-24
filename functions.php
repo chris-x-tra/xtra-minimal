@@ -22,4 +22,16 @@ function my_custom_theme_wp_title() {
     add_theme_support('title-tag');
 }
 add_action('after_setup_theme', 'my_custom_theme_wp_title');
+
+// Posts Exzerpt
+function custom_excerpt_length($length) {
+    return 25; // Anzahl der W
+}
+add_filter('excerpt_length', 'custom_excerpt_length');
+
+//
+function mytheme_add_woocommerce_support() {
+    add_theme_support( 'woocommerce' );
+}
+add_action( 'after_setup_theme', 'mytheme_add_woocommerce_support' );
 ?>

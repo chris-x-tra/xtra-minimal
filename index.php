@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 <main>
+<hr />
     <div class="hero">
     </div>
 
